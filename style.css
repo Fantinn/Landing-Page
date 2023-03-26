@@ -29,7 +29,7 @@ nav .navC ul {
 
 }
 
-nav .navC ul li a:hover {
+nav .navC ul li:not(:first-child) a:hover {
     border-bottom: 2px solid #E5E7EB;
 }
   
