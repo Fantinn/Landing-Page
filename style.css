@@ -28,6 +28,10 @@ nav .navC ul {
     width: 50%;
 
 }
+
+nav .navC ul li a:hover {
+    border-bottom: 2px solid #E5E7EB;
+}
   
 nav .navC ul li a {
     font-size: 18px;
