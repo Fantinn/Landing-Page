@@ -227,3 +227,148 @@ footer {
 footer .footerC {
     padding: 2em;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 1200px) {
+    header #headerC {
+        width: 60%;
+    }
+    main .sectionOne .cardsC{
+        width: 60%;
+    }
+    main .sectionTwo .quoteP {
+        width: 60%;
+    }
+    main .sectionThree .ctaC {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    header #headerC {
+        width: 70%;
+    }
+    main .sectionOne .cardsC{
+        width: 70%;
+    }
+    main .sectionTwo .quoteP {
+        width: 70%;
+    }
+    main .sectionThree .ctaC {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    header #headerC {
+        width: 80%;
+    }
+    main .sectionOne .cardsC{
+        width: 80%;
+    }
+    main .sectionTwo .quoteP {
+        width: 80%;
+    }
+    main .sectionThree .ctaC {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    nav .navC ul {
+        width: 100%;
+    }
+
+    header #headerC {
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    header #headerC .leftS {
+        margin: 0;
+        text-align: center;
+    }
+
+    header #headerC .rightS {
+        display: none;
+    
+    }
+
+    header .headerButton  {
+        margin: 1em;
+    }
+
+    main .sectionOne .cardsC{
+        width: 90%;
+    }
+    main .sectionTwo .quoteP {
+        width: 90%;
+    }
+    main .sectionThree .ctaC {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    header #headerC .leftS {
+        text-align: center;
+    }
+
+    header #headerC .leftS p {
+        padding: 1em    ;
+    }
+
+    main .sectionOne .cardsC{
+        flex-direction: column;
+        align-items: center;
+    }
+    main .sectionOne .cardsC .items{
+        margin-bottom: 1em;
+    }
+    main .sectionOne .cardsC .items .card {
+        width: 100px;
+        height: 100px;
+    }
+    main .sectionOne {
+        display: none;
+    }
+    main .sectionTwo .quoteP {
+        padding: 2em;
+    }
+    main .sectionTwo p{
+        font-size: 24px;
+    }
+    main .sectionTwo .quoteAuthor {
+        font-size: 14px;
+    }
+    main .sectionThree .ctaC {
+        flex-direction: column;
+        align-items: center;
+    }
+    main .sectionThree .ctaC .ctaP {
+        margin-bottom: 1em;
+    }
+    main .sectionThree .ctaC button {
+        width: 100px;
+    }
+    footer .footerC {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    main .sectionTwo .quoteP {
+        padding: 1em;
+    }
+    main .sectionTwo p{
+        font-size: 18px;
+    }
+    main .sectionTwo .quoteAuthor {
+        font-size: 12px;
+    }
+}
