@@ -297,6 +297,10 @@ footer .footerC {
     
     }
 
+    header #headerC .leftS p {
+        padding: 1em    ;
+    }
+
     header .headerButton  {
         margin: 1em;
     }
@@ -312,14 +316,10 @@ footer .footerC {
     }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 550px) {
 
     header #headerC .leftS {
         text-align: center;
-    }
-
-    header #headerC .leftS p {
-        padding: 1em    ;
     }
 
     main .sectionOne .cardsC{
