@@ -1,7 +1,7 @@
 # Project-2-Landing-Page
 
 ## Links
-- [Try Landing Page here!](https://fantinn.github.io/Project-2-Landing-Page/)
+- [Try Landing Page here!](https://fantinn.github.io/Landing-Page/)
 
 - [Link to the Assignment](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page)
 
